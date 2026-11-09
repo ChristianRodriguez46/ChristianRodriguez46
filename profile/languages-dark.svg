@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 220" width="495" height="220" role="img" aria-labelledby="title">
+  <title id="title">Most used languages: Jupyter Notebook 62.5%, HTML 18.8%, C 7.4%, JavaScript 3.9%, C++ 2.7%, CSS 1.2%, Other 3.5%.</title>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2997ff"/>
+      <stop offset="1" stop-color="#7d6ff0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="494" height="219" rx="20" fill="#1d1d1f" stroke="#424245"/>
+  <text x="28" y="44" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#f5f5f7">Most used languages</text>
+  <clipPath id="bar"><rect x="28" y="64" width="439" height="12" rx="6"/></clipPath>
+  <rect x="28" y="64" width="439" height="12" rx="6" fill="#2c2c2e"/>
+  <g clip-path="url(#bar)">
+    <rect x="28.0" y="64" width="274.6" height="12" fill="#DA5B0B"/>
+    <rect x="302.6" y="64" width="82.7" height="12" fill="#e34c26"/>
+    <rect x="385.3" y="64" width="32.7" height="12" fill="#555555"/>
+    <rect x="418.0" y="64" width="16.9" height="12" fill="#f1e05a"/>
+    <rect x="434.9" y="64" width="11.8" height="12" fill="#f34b7d"/>
+    <rect x="446.6" y="64" width="5.2" height="12" fill="#663399"/>
+    <rect x="451.8" y="64" width="15.2" height="12" fill="#8e8e93"/>
+  </g>
+  <circle cx="34" cy="106" r="6" fill="#DA5B0B"/>
+  <text x="48" y="110" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#f5f5f7">Jupyter Notebook <tspan fill="#a1a1a6">62.5%</tspan></text>
+  <circle cx="256" cy="106" r="6" fill="#e34c26"/>
+  <text x="270" y="110" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#f5f5f7">HTML <tspan fill="#a1a1a6">18.8%</tspan></text>
+  <circle cx="34" cy="132" r="6" fill="#555555"/>
+  <text x="48" y="136" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#f5f5f7">C <tspan fill="#a1a1a6">7.4%</tspan></text>
+  <circle cx="256" cy="132" r="6" fill="#f1e05a"/>
+  <text x="270" y="136" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#f5f5f7">JavaScript <tspan fill="#a1a1a6">3.9%</tspan></text>
+  <circle cx="34" cy="158" r="6" fill="#f34b7d"/>
+  <text x="48" y="162" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#f5f5f7">C++ <tspan fill="#a1a1a6">2.7%</tspan></text>
+  <circle cx="256" cy="158" r="6" fill="#663399"/>
+  <text x="270" y="162" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#f5f5f7">CSS <tspan fill="#a1a1a6">1.2%</tspan></text>
+  <circle cx="34" cy="184" r="6" fill="#8e8e93"/>
+  <text x="48" y="188" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#f5f5f7">Other <tspan fill="#a1a1a6">3.5%</tspan></text>
+</svg>

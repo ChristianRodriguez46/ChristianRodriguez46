@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-labelledby="title">
+  <title id="title">Contributions per week over the last year. Busiest week: 65 contributions, starting 2025-11-23.</title>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0071e3"/>
+      <stop offset="1" stop-color="#5b4fe0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="999" height="239" rx="20" fill="#ffffff" stroke="#d2d2d7"/>
+  <text x="28" y="44" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1d1d1f">Contributions per week</text>
+  <text x="972" y="44" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#515156">most in a week: 65</text>
+  <line x1="28" y1="196.5" x2="972" y2="196.5" stroke="#e8e8ed"/>
+  <rect x="45.8" y="168.9" width="14.8" height="27.1" rx="2" fill="url(#accent)"/>
+  <rect x="63.6" y="70.0" width="14.8" height="126.0" rx="2" fill="url(#accent)"/>
+  <rect x="81.4" y="170.8" width="14.8" height="25.2" rx="2" fill="url(#accent)"/>
+  <rect x="223.9" y="192.1" width="14.8" height="3.9" rx="2" fill="url(#accent)"/>
+  <rect x="437.7" y="178.6" width="14.8" height="17.4" rx="2" fill="url(#accent)"/>
+  <rect x="491.1" y="176.6" width="14.8" height="19.4" rx="2" fill="url(#accent)"/>
+  <rect x="508.9" y="190.2" width="14.8" height="5.8" rx="2" fill="url(#accent)"/>
+  <rect x="865.1" y="184.4" width="14.8" height="11.6" rx="2" fill="url(#accent)"/>
+  <rect x="900.8" y="188.2" width="14.8" height="7.8" rx="2" fill="url(#accent)"/>
+  <rect x="936.4" y="155.3" width="14.8" height="40.7" rx="2" fill="url(#accent)"/>
+  <rect x="954.2" y="190.2" width="14.8" height="5.8" rx="2" fill="url(#accent)"/>
+  <text x="28.0" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Nov</text>
+  <text x="99.2" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Dec</text>
+  <text x="170.5" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Jan</text>
+  <text x="241.7" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Feb</text>
+  <text x="313.0" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Mar</text>
+  <text x="402.0" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Apr</text>
+  <text x="473.3" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">May</text>
+  <text x="562.3" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Jun</text>
+  <text x="633.6" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Jul</text>
+  <text x="704.8" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Aug</text>
+  <text x="793.9" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Sep</text>
+  <text x="865.1" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Oct</text>
+  <text x="936.4" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Nov</text>
+</svg>
