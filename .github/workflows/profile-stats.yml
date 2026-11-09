@@ -1,0 +1,59 @@
+# Redraws the activity cards in profile/ from my public GitHub data (scripts/profile-stats.mjs)
+# and commits them when the numbers changed.
+#
+# When it runs
+#   - Every Monday morning.
+#   - The "Run workflow" button on this workflow in the Actions tab.
+#   - A push to main that changes the script or this file (so the first push draws the cards).
+#
+# The commits are made as github-actions[bot], not as me, so the weekly redraw doesn't count as my
+# own contributions on the cards it draws.
+#
+# Troubleshooting
+#   - "Resource not accessible by integration": the built-in token can't read contribution data on
+#     this account. Create a fine-grained personal access token with read-only access to public
+#     repositories and save it as the STATS_TOKEN secret (Settings > Secrets and variables > Actions).
+#     This workflow uses it when it exists.
+#   - The schedule stops after 60 days without activity in the repo. Press "Run workflow" to
+#     start it again.
+name: profile-stats
+on:
+  schedule:
+    - cron: "17 14 * * 1" # Mondays at 14:17 UTC, 6:17 a.m. in Bakersfield in winter
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/profile-stats.mjs
+      - .github/workflows/profile-stats.yml
+permissions:
+  contents: write
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Draw the cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
+        run: node scripts/profile-stats.mjs
+
+      - name: Commit the cards if they changed
+        run: |
+          git add profile
+          if git diff --cached --quiet; then
+            echo "The cards are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Updated the profile activity cards"
+          git push

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="CR">
+  <!-- Christian Rodriguez monogram: "CR" inside an open ring, blue to pink.
+       Transparent background, so it works on light and dark pages.
+       Everything is drawn with strokes on a 64 x 64 grid:
+         ring  - a circle of radius 29 around the center, open at the lower right where the R's leg points
+         C     - an arc of radius 10 centered at (25.2, 32), open to the right
+         R     - a stem at x = 38.5, a bowl of radius 5.5 and a leg down to the right -->
+  <defs>
+    <linearGradient id="cr-gradient" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2997ff"/>
+      <stop offset="0.55" stop-color="#7d5cff"/>
+      <stop offset="1" stop-color="#e93fd0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#cr-gradient)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M47.37 56.59 A29 29 0 1 1 58.89 42.86" stroke-width="3.6"/>
+    <path d="M32.1 25.1 A10 10 0 1 0 32.1 38.9" stroke-width="4.6"/>
+    <path d="M38.5 42 V22 H44 a5.5 5.5 0 0 1 0 11 H38.5 M43.5 33 L49 42" stroke-width="4.6"/>
+  </g>
+</svg>
