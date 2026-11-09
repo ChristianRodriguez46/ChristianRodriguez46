@@ -20,7 +20,7 @@
   <rect x="865.1" y="184.4" width="14.8" height="11.6" rx="2" fill="url(#accent)"/>
   <rect x="900.8" y="188.2" width="14.8" height="7.8" rx="2" fill="url(#accent)"/>
   <rect x="936.4" y="155.3" width="14.8" height="40.7" rx="2" fill="url(#accent)"/>
-  <rect x="954.2" y="186.3" width="14.8" height="9.7" rx="2" fill="url(#accent)"/>
+  <rect x="954.2" y="184.4" width="14.8" height="11.6" rx="2" fill="url(#accent)"/>
   <text x="28.0" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Nov</text>
   <text x="99.2" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Dec</text>
   <text x="170.5" y="220" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#515156">Jan</text>
