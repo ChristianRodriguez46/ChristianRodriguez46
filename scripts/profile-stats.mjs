@@ -200,16 +200,21 @@ ${body}
 
 function drawStats(summary, theme) {
     const t = THEMES[theme];
+    // Short labels: each column is under 150 px wide when all three show.
+    const days = (count) => (count === 1 ? 'day' : 'days');
     const big = [
-        { value: summary.totalContributions, label: 'contributions in the last year' },
-        { value: summary.currentStreak, label: 'day current streak' },
-        { value: summary.longestStreak, label: 'day longest streak' }
+        { value: summary.totalContributions, unit: '', label: 'contributions' },
+        { value: summary.currentStreak, unit: days(summary.currentStreak), label: 'current streak' },
+        { value: summary.longestStreak, unit: days(summary.longestStreak), label: 'longest streak' }
     ].filter((item, index) => index === 0 || item.value > 0);
 
     const columnWidth = 439 / big.length;
     const columns = big.map((item, index) => {
         const x = 28 + index * columnWidth;
-        return `  <text x="${x}" y="104" font-family="${FONT}" font-size="38" font-weight="700" letter-spacing="-1" fill="url(#accent)">${item.value.toLocaleString('en-US')}</text>
+        const unit = item.unit
+            ? `<tspan dx="5" font-size="17" font-weight="600" letter-spacing="0" fill="${t.ink2}">${item.unit}</tspan>`
+            : '';
+        return `  <text x="${x}" y="104" font-family="${FONT}" font-size="38" font-weight="700" letter-spacing="-1" fill="url(#accent)">${item.value.toLocaleString('en-US')}${unit}</text>
   <text x="${x}" y="128" font-family="${FONT}" font-size="13" fill="${t.ink2}">${escape(item.label)}</text>`;
     }).join('\n');
 
