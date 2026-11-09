@@ -41,7 +41,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const LOGIN = 'ChristianRodriguez46';
 const EXCLUDE_REPOS = ['ChristianRodriguez46']; // this profile repository
-const HIDE_LANGUAGES = [];                       // e.g. ['HTML'] to leave it off the card
+const HIDE_LANGUAGES = ['Jupyter Notebook'];
 const TOP_LANGUAGES = 6;                         // the rest are grouped as "Other"
 const OUTPUT_DIR = 'profile';
 const SMALL_CARD = { width: 495, height: 220 }; // the two cards that sit side by side
